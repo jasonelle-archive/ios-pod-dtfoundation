@@ -17,6 +17,9 @@
 
 #import <DTFoundation/DTCompatibility.h>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
+
 @interface UIViewController () // private setter
 - (void)setSidePanelController:(DTSidePanelController *)sidePanelController;
 @end
@@ -24,6 +27,7 @@
 
 @interface DTSidePanelController () <UIGestureRecognizerDelegate>
 @end
+
 
 @implementation DTSidePanelController 
 {
@@ -994,3 +998,5 @@
 }
 
 @end
+
+#pragma clang diagnostic pop
