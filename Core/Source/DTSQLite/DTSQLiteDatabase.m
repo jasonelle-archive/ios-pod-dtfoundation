@@ -71,11 +71,7 @@
 	
 	[self performBlock:^{
 		// set cancelling back after queue was cleared out
-<<<<<<< HEAD
-        self->_isCancelling = NO;
-=======
 		self->_isCancelling = NO;
->>>>>>> develop
 	}];
 	
 	[_queue setSuspended:NO];
