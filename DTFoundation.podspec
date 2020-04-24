@@ -101,7 +101,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'DTUTI' do |ss|
     ss.ios.deployment_target = '4.3'
     ss.osx.deployment_target = '10.8'
-    ss.ios.frameworks = ['MobileCoreServices']
+    ss.ios.frameworks = ['CoreServices']
     ss.source_files = 'Core/Source/DTUTI/*.{h,m}'
   end
 

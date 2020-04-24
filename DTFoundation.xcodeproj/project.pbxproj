@@ -1090,7 +1090,7 @@
 		A7AC21A8196409560009E1B9 /* DTAnimatedGIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAnimatedGIF.m; sourceTree = "<group>"; };
 		A7AC21AF196417830009E1B9 /* libDTAnimatedGIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTAnimatedGIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AC21CD1964184F0009E1B9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		A7C619EF162D8D84002C0C1A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A7C619EF162D8D84002C0C1A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		A7C8181E18339146000CE7BD /* AppKit Subspec-template.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AppKit Subspec-template.markdown"; sourceTree = "<group>"; };
 		A7C8181F18339146000CE7BD /* Core Subspec-template.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Core Subspec-template.markdown"; sourceTree = "<group>"; };
 		A7C8182018339146000CE7BD /* Other Subspecs-template.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other Subspecs-template.markdown"; sourceTree = "<group>"; };
@@ -1884,7 +1884,7 @@
 				A7239FFC16A6CF0B0071E902 /* CoreData.framework */,
 				FAE5B9311610A38200CA0D99 /* CoreGraphics.framework */,
 				A7F4DFFA147FD08F00F4059A /* Foundation.framework */,
-				A7C619EF162D8D84002C0C1A /* MobileCoreServices.framework */,
+				A7C619EF162D8D84002C0C1A /* CoreServices.framework */,
 				FAB1725D163004FF00B44EDC /* QuartzCore.framework */,
 				FAF37A6F17AFE098009AC27C /* QuickLook.framework */,
 				A7D60FD015D3B0BC00AEDD1B /* SenTestingKit.framework */,
